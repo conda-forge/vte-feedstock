@@ -58,9 +58,9 @@ requirements:
     - pango
     - pcre2
     - zlib
-    # v0.80.x
-    # - simdutf
-    # - fast_float
+    # v0.79+
+    - simdutf
+    - fast_float
 
 tests:
   - script: run_test.py
