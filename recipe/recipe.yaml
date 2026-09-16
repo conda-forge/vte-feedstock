@@ -54,7 +54,6 @@ requirements:
     - gdk-pixbuf
     - gtk4
     - icu
-    - libgraphene
     - lz4-c
     - pango
     - pcre2
