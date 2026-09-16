@@ -54,13 +54,16 @@ requirements:
     - gdk-pixbuf
     - gtk4
     - icu
+    - libgraphene
     - lz4-c
     - pango
     - pcre2
     - zlib
     # v0.79+
-    - simdutf
     - fast_float
+    # v0.81+
+    # - simdutf
+    # - fmt
 
 tests:
   - script: run_test.py
