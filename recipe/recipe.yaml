@@ -61,8 +61,8 @@ requirements:
     # v0.79+
     - fast_float
     # v0.81+
-    # - simdutf
-    # - fmt
+    - simdutf
+    - fmt
 
 tests:
   - script: run_test.py
