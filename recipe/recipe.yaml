@@ -1,7 +1,7 @@
 # For more information about this format see: https://prefix-dev.github.io/rattler-build/latest/reference/recipe_file/
 context:
   name: vte
-  version: "0.82.2"
+  version: "0.84.1"
   version_majmin: ${{ (version | split('.'))[:2] | join('.') }}
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: "https://download.gnome.org/sources/${{ name }}/${{ version_majmin }}/${{ name }}-${{ version }}.tar.xz"
-  sha256: e1295aafc4682b3b550f1235dc2679baa0f71570d8ed543c001c1283d530be91
+  sha256: aca1caa8478aebcdbb1d67897fb3511eb7601debae6810e16a15b6fa25f31ac8
 
 build:
   number: 0
