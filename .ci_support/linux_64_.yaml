@@ -16,6 +16,8 @@ docker_image:
 - quay.io/condaforge/linux-anvil-x86_64:alma10
 expat:
 - '2'
+fmt:
+- '12.1'
 fontconfig:
 - '2'
 freetype:
