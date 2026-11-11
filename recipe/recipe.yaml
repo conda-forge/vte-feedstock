@@ -13,7 +13,7 @@ source:
   sha256: aca1caa8478aebcdbb1d67897fb3511eb7601debae6810e16a15b6fa25f31ac8
 
 build:
-  number: 0
+  number: 1
   script: |
     meson setup ${MESON_ARGS} \
         --prefix=$PREFIX \
