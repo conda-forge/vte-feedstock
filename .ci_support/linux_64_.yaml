@@ -31,7 +31,7 @@ glib:
 gnutls:
 - '3.8'
 icu:
-- '78'
+- '79'
 lz4_c:
 - '1.11'
 pango:
