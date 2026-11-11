@@ -41,7 +41,7 @@ requirements:
     - gobject-introspection
     - meson
     - ninja
-    - pkg-config
+    - pkgconf
   host:
     - cairo
     - expat
