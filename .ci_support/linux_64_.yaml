@@ -37,7 +37,7 @@ lz4_c:
 pango:
 - '1'
 pcre2:
-- '10.47'
+- '10.49'
 target_platform:
 - linux-64
 zlib:
